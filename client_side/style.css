@@ -1,0 +1,217 @@
+/* -----------------FOR THE WHOLE WEBSITE------------------- */
+/* set same font and text colour for the whole website */
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:#404756;
+    text-decoration: none;
+}
+
+body{
+    background-color: #4d6794;
+}
+
+/* -----------------HEADING------------------- */
+nav{
+    display:inline-block;
+}
+/* the bar underneath the heading menu */
+.underBar{
+    background-color: #93ABDD;
+    position: absolute;
+    width: 99%;
+    height: 19vh;
+    top: 20px;
+}
+.sideMenu{
+    font-size: 40px;
+}
+/* the pop up menu on the left side */
+.navbar {
+    font-size: 20px;
+    font-family: sans-serif;
+    background-color:#93ABDD;
+    position: relative;
+    z-index: 999;
+    width: 250px;
+    height: 69px;
+}
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.navbar li {
+    display: inline-block;
+}
+.navbar li span {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+.navbar ul ul {
+    position: absolute;
+    top: 100%;
+    display: none;
+    padding: 10px 20px;
+    height: 70vh;
+    width: 16vw;
+}
+.navbar ul ul li {
+    display: block;
+}
+.navbar li:hover ul {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #93ABDD;
+    display: block;
+    line-height: 50px;
+}
+.change{/*for the pop-up side menu*/
+    border: 0.5px solid #404756;
+    margin-left: 4vw;
+    width: 7.5vw;
+}
+section {
+    margin-left: 34.5vw;
+}
+h1{
+    margin-left: auto;
+    font-size: 50px;
+    top: 2vh;
+    position: relative;
+}
+.menu{
+    float:right;
+    margin-right: 20px;
+    margin-top: 9vh;
+    position: relative;
+    font-size: 20px;
+}
+.menu a:hover{
+    color: #404756;
+    text-decoration: underline;
+    text-decoration-color: #404756;
+}
+#Bc{/*to seperate the menu's spacing a bit*/
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+/* -----------------FOOTER + MUSIC PLAYER------------------- */
+footer{
+    position: fixed;
+    color: #93ABDD;
+    bottom: 10px;
+}
+audio{
+    float: right;
+    margin-left: 74vw;
+    width: 25vw;
+    bottom: 10px;
+    position: fixed;
+    display: block;
+}
+
+
+/* -----------------MIDDLE BUTTONS FOR HOMEPAGE------------------- */
+#clockyclock { /*clock */
+    width: 10vw;
+    height: 10vh;
+    background-color: #93ABDD;
+    border: 3px solid #404756;
+    padding: 10px;
+    font-size: 16px;
+
+    /*for positions*/
+    float: right;
+    margin-right: 4vw;
+    display: block;
+    position: relative;
+    top: 6vh;
+}
+.big{/*big circles*/
+    border: 3px solid #404756;
+    border-radius: 50%;
+    background-color: #93ABDD;
+    width: 20vw;
+    height: 20vw;
+    font-size: 20px;
+
+    /*for positioning*/
+    float:left;
+    margin-left: 20%;
+    text-align: center;
+    line-height: 1000%;
+}
+.buttons{
+    display: -ms-inline-block;
+    position: relative;
+    margin-top: 18vh;
+}
+img{
+    width: 25vw;
+    height: 30vh;
+    margin-left: 40vw;
+    display: block;
+}
+
+/* -----------------CONTENT FOR GAME------------------- */
+.tictac{
+    margin: auto;
+    margin-top: 15vh;
+}
+.square{
+    width: 15vw;
+    height: 15vh;
+    font-size: 150%;
+}
+#newGameButton{
+    width: 10vw;
+    height: 6vh;
+    margin-top: 2vh;
+    margin-left: 44.5vw;
+    font-size: 120%;
+}
+
+
+/* -----------------CONTENT FOR JOURNAL------------------- */
+.input{
+    margin-top: 10vh;
+    box-sizing: border-box;
+    margin-left:12vw;
+    color: #93ABDD;
+    font-weight: bold;
+    font-style: italic;
+}
+input{
+    border: 3px solid #404756;
+    width: 30%;
+}
+.output{
+    background-color: white;
+    border: 3px solid #404756;
+    width: 75vw;
+    height: 350px;
+    margin: auto;
+    text-align: left;
+    font-size: 15px;
+}
+.journal{
+    margin-top: 0.5vh;
+    display: grid;
+    padding: 2px;
+}
+.save{/*for the buttons on the journal page*/
+    width: 10vw;
+    height: 6vh;
+    margin-top: 1vh;
+    margin-right: 0.5vw;
+    font-size: 120%;
+}
+#download {
+    width: fit-content;
+}

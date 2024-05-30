@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>My Cozy Web Space</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="themes.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="frontend.js"></script>
+  </head>
+
+  <body onload="clock()">
+    <header>
+      <nav class="underBar">
+        <p></p>
+      </nav>
+      <nav class="navbar" id="top">
+        <ul>
+          <li>
+            <span class="sideMenu">---</span>
+            <ul>
+              <li class="settingsTabs">
+                Toggle Clock
+                <button onclick="clock()" id="clockBUTT">ON</button>
+              </li>
+              <li class="settingsTabs">
+                Gif <button onclick="gif()" id="cat">Show</button>
+              </li>
+              <li class="settingsTabs">
+                Music Controller <button onclick="playMusic()" id="onOFF">Show</button>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <nav>
+        <span id="headerTite"><h1>My Cozy Web Space</h1></span>
+      </nav>
+      <nav class="menu">
+        <a href="home.html">home</a>
+        <a id="Bc" href="games.html">games</a>
+        <a href="journal.html">journal</a>
+      </nav>
+    </header>
+    <div id="clockyclock">
+      <p>The time is:</p>
+      <p id="timeT"></p>
+    </div>
+    <div class="buttons">
+      <a href="games.html" id="gamesButton" class="big"><h2>Game</h2></a>
+      <a href="journal.html" id="journalButton" class="big"><h2>Journal</h2></a>
+    </div>
+    <img
+      src="manwithcat.gif"
+      alt="A gif of a cat and person relaxing"
+      id="catIMG"
+    />
+    <audio controls loop id="player">
+      <source
+        src="calm and relaxing liyue music  rain (1 hour).mp3"
+        type="audio/mpeg"
+      />
+    </audio>
+    <footer>Website by Tanvi Jain & Vitor Betmann</footer>
+  </body>
+</html>
