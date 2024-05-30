@@ -1,6 +1,6 @@
 My Cozy Web Space is ...
 
-- This website need node_modules to run.
+- This website needs node_modules to run.
 - Songs removed from client_side repo due to upload size constraints
 
 https://github.com/vitorbetmann/My-Cozy-Web-Space/assets/143951155/052e08e8-6b92-4bb9-85c8-28f1daf150fb
