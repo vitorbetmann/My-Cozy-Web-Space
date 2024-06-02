@@ -1,5 +1,6 @@
-My Cozy Web Space is ...
+A private relaxing virtual space where the user can listen to music, play a tic-tac-toe game against an AI opponent, and write to a journal. The journal implements backend features using Node.js that allows the user to download their writings to their local machine.
 
+- Website not deployed
 - This website needs node_modules to run.
 - Songs removed from client_side repo due to upload size constraints
 
